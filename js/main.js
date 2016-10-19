@@ -11,13 +11,18 @@ function setupMap(wrapper) {
     var path = d3.geoPath()
         .projection(projection);
 
-    var zoom = d3.zoom();
-
     var svg = d3.select(wrapper).select("svg")
         .attr("width", width)
         .attr("height", height);
 
-    var g = svg.append('g');
+        var g = svg.append('g');
+
+    var zoom = d3.zoom()
+        .scaleExtent([1, 32])
+        .duration(2000)
+        .on('zoom', function() {
+            g.attr("transform", d3.event.transform);
+        });
 
     var colors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6','#6a3d9a','#ffff99','#b15928'];
 

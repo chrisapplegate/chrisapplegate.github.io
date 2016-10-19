@@ -8233,7 +8233,7 @@ var interrupt = function(node, name) {
 
   for (i in schedules) {
     if ((schedule = schedules[i]).name !== name) { empty = false; continue; }
-    active = schedule.state === STARTED;
+    active = (schedule.state === STARTED || schedule.state === RUNNING);
     schedule.state = ENDED;
     schedule.timer.stop();
     if (active) schedule.on.call("interrupt", node, node.__data__, schedule.index, schedule.group);
