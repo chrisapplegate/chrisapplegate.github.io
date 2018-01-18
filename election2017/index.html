@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="./css/scaffolding.css">
+        <script>
+        window.BFUKStaticHostname = ".";
+        </script>
+        <title>2017 Election Map</title>
+
+    </head>
+    <body class="election2017">
+
+        <div class="container dummy-container">
+
+<link rel="stylesheet" href="./css/election2017.2.0.0.min.css">
+
+<div class="uk-election-container">
+
+    <div id="uk-election-2017-graphic-wrapper" class="graphic-wrapper">
+
+        <div id="graph-map-toggle-wrapper" class="controls-toggle-wrapper">
+            <div class="toggle-header" data-pane="graph">
+                Graph
+            </div>
+            <div class="toggle-header" data-pane="map">
+                Map
+            </div>
+        </div>
+
+        <div id="uk-election-2017-graph-wrapper" class="graph-wrapper full">
+
+            <div class="graph-meta">
+
+                <div class="graph-meta-heading"></div>
+                <div class="graph-meta-subheading"></div>
+
+            </div>
+
+            <svg class="graph">
+
+            </svg>
+
+        </div>
+
+
+        <div id="uk-election-2017-map-wrapper" class="map-wrapper full">
+
+            <div id="uk-election-2017-map-inner"><svg id="uk-election-2015-map" class="map"></svg>
+
+            <div id="uk-election-2017-map-controls" class="map-controls-overlay">
+
+                <button id="uk-election-2017-map-zoom-in-button" class="zoom-button zoom-in-button">
+                    <svg fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        <path d="M0 0h24v24H0V0z" fill="none"/>
+                        <path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"/>
+                    </svg>
+                </button>
+
+                <button id="uk-election-2017-map-zoom-out-button" class="zoom-button zoom-out-button">
+                    <svg fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0V0z" fill="none"/>
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zM7 9h5v1H7z"/>
+                    </svg>
+                </button>
+
+                <button id="uk-election-2017-map-change-mode-button" class="change-mode-button" disabled>
+                    <svg fill="#FFFFFF" height="24" viewBox="0 0 32 32" width="24" class="hidden" xmlns="https://www.w3.org/2000/svg">
+                        <path fill="#FFFFFF" d="M16,31.4L2.7,23.7V8.3L16,0.6l13.3,7.7v15.4L16,31.4z M4.2,22.8L16,29.6l11.8-6.8V9.2L16,2.4L4.2,9.2V22.8 z"/>
+                    </svg>
+                    <img src="./img/icons/white/uk.png" alt="" height="24" width="24">
+                </button>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="controls-toggle-wrapper" id="ticker-finder-toggle-wrapper">
+            <div class="toggle-header" data-pane="ticker">
+                Latest Results
+            </div>
+            <div class="toggle-header" data-pane="finder">
+                Where I Live
+            </div>
+        </div>
+
+        <div id="uk-election-2017-results-ticker-wrapper" class="results-ticker-wrapper full">
+
+            <div class="graphic-header results-ticker-header">
+                Latest Results
+            </div>
+
+            <div id="uk-election-2017-results-ticker" class="results-ticker">
+
+            </div>
+
+        </div>
+
+
+        <div id="uk-election-2017-results-finder-wrapper" class="results-finder-wrapper full">
+
+            <div class="graphic-header results-finder-header">
+                Where I Live
+            </div>
+
+            <div id="uk-election-2017-results-finder" class="results-finder">
+
+                <form class="results-finder-form" action="#" method="get">
+                    <input type="text" placeholder="Your postcode" class="results-finder-input"><button type="button" class="results-finder-button" disabled>Search</button>
+                </form>
+
+                <div class="results-finder-result">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="clearfix">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="./js/election2017.2.0.0.min.js"></script>
+
+<script src="https://use.typekit.net/vmu2xen.js"></script>
+<script>try{Typekit.load({ async: true, inactive: BFUKGeo.fontFallback });}catch(e){}</script>
+
+<script>
+window.BFUKElectionAlertsAPIHostname = "https://ukelectionalerts.buzzfeed.com/";
+window.BFUKGeodataAPIHostname = "https://ukgeodata.buzzfeed.com/";
+
+new BFUKGeo.GeneralElectionGraphic({
+
+    wrapper : 'uk-election-2017-graphic-wrapper',
+
+    mode : 'full',
+
+    graph :  'uk-election-2017-graph-wrapper',
+    graphOptions : {
+        heading : "Hung Parliament",
+    },
+
+    map :    'uk-election-2017-map-wrapper',
+    mapOptions : {
+        initialMode : 'real',
+    },
+    ticker : 'uk-election-2017-results-ticker-wrapper',
+    finder : 'uk-election-2017-results-finder-wrapper',
+});
+
+</script>
+
+<!-- End -->
+
+    </div>
+    </body>
+
+</html>
