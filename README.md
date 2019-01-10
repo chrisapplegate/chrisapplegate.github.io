@@ -1,4 +1,5 @@
 # chrisapplegate.github.io
+
 Github page for Chris Applegate
 
-A collection of interesting projects
+© Only Two Hard Problems Ltd, 2019
