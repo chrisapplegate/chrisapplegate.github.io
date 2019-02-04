@@ -1,0 +1,28 @@
+# Site settings
+title: Chris Applegate
+email: chris@onlytwo.io
+description: >-
+  © 2019 Only Two Hard Problems Ltd
+
+baseurl: "/"
+url: "https://onlytwo.io"
+twitter_username: chrisapplegate
+github_username:  chrisapplegate
+
+# Build settings
+markdown: kramdown
+theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

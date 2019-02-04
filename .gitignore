@@ -1,0 +1,8 @@
+# Vendor files
+.bundle
+vendor
+
+# Jekyll-related
+_site
+.sass-cache
+.jekyll-metadata
