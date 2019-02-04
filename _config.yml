@@ -2,7 +2,7 @@
 title: Chris Applegate
 email: chris@onlytwo.io
 description: >-
-  © 2019 Only Two Hard Problems Ltd
+  Contract CTO/Lead Developer for hire
 
 baseurl: "/"
 url: "https://onlytwo.io"
@@ -12,8 +12,8 @@ github_username:  chrisapplegate
 # Build settings
 markdown: kramdown
 theme: minima
-# plugins:
-#   - jekyll-feed
+
+google_analytics: UA-133794117-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

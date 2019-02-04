@@ -1,5 +1,5 @@
-# chrisapplegate.github.io
+# onlytwo.io
 
-Github page for Chris Applegate
+Powered by [Jekyll](https://jekyllrb.com/).
 
 © Only Two Hard Problems Ltd, 2019
