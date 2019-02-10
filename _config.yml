@@ -2,27 +2,17 @@
 title: Chris Applegate
 email: chris@onlytwo.io
 description: >-
-  Contract CTO/Lead Developer for hire
+  Contract CTO/Lead Developer
 
 baseurl: "/"
 url: "https://onlytwo.io"
+
 twitter_username: chrisapplegate
 github_username:  chrisapplegate
+linkedin_username: chrisapplegate
 
 # Build settings
 markdown: kramdown
 theme: minima
 
 google_analytics: UA-133794117-1
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
