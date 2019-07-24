@@ -1,8 +1,8 @@
 # Site settings
-title: Chris Applegate
+title: Only Two Hard Problems
 email: chris@onlytwo.io
 description: >-
-  Contract CTO/Lead Developer
+  Bootstrapping software for startups
 
 baseurl: "/"
 url: "https://onlytwo.io"
